@@ -1,4 +1,5 @@
 import { Toaster } from 'react-hot-toast';
+import Footer from '../Footer/Footer';
 
 export default function Layout({ children }) {
   return (
@@ -17,6 +18,7 @@ export default function Layout({ children }) {
         {children}
       </main>
       <Toaster position="top-right" />
+      <Footer />
     </div>
   );
 }

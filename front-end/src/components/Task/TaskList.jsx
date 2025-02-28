@@ -59,7 +59,7 @@ export default function TaskList() {
   return (
     <div>
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-2xl font-bold text-gray-900">Tasks</h2>
+        <h2 className="text-2xl font-bold text-gray-900">Current Tasks</h2>
         <button
           onClick={() => setIsFormOpen(true)}
           className="flex items-center px-4 py-2 text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 rounded-md"
